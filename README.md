@@ -18,15 +18,15 @@ Perfect for servers where you want to restrict prop spawning, tool usage, or acc
 ## 📜 Code Example
 
 ```lua
--- Q & C Menu Blocker
--- Author: Narazuka
-
--- Block Q-Menu (spawnmenu)
 hook.Add("SpawnMenuOpen", "Block_Q_Menu", function()
-    return false -- prevents the menu from opening
+    return false
 end)
 
--- Block C-Menu (context menu)
 hook.Add("ContextMenuOpen", "Block_C_Menu", function()
-    return false -- prevents the menu from opening
+    return false
 end)
+```
+## Download the zip, Drag&Drop the file in to your Server!
+
+
+# DONE!
